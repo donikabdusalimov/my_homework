@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+
+.h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 219px;
+    height: 69px;
+    border-radius: 100px;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    background: linear-gradient(180deg, #FFE195 0%, #FF5B5B 100%);
+}
